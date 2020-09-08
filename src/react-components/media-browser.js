@@ -68,8 +68,8 @@ const DEFAULT_FACETS = {
   ],
   avatars: [
     { text: "Featured", params: { filter: "featured" } },
-    { text: "My Avatars", params: { filter: "my-avatars" } },
-    { text: "Newest", params: { filter: "" } }
+    { text: "Mis Avatars", params: { filter: "my-avatars" } },
+    { text: "Nuevos", params: { filter: "" } }
   ],
   favorites: [],
   scenes: [{ text: "Featured", params: { filter: "featured" } }, { text: "My Scenes", params: { filter: "my-scenes" } }]

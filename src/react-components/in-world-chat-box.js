@@ -111,7 +111,7 @@ class InWorldChatBox extends Component {
                 e.target.blur();
               }
             }}
-            placeholder={this.props.discordBridges.length ? `Send to room and ${discordSnippet}...` : "Send to room..."}
+            placeholder={this.props.discordBridges.length ? `Enviar y ${discordSnippet}...` : "Enviar..."}
           />
           {this.props.enableSpawning && (
             <InlineSVGButton

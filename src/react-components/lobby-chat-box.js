@@ -34,7 +34,7 @@ class LobbyChatBox extends Component {
     const occupantSnippet = `${this.props.occupantCount - 1} other${this.props.occupantCount > 2 ? "s" : ""}`;
     const messageEntryPlaceholder =
       this.props.occupantCount <= 1
-        ? "Nobody is here yet..."
+        ? "No hay nadie todavía..."
         : this.props.discordBridges.length
           ? `Send message to ${occupantSnippet} and ${discordSnippet}...`
           : `Send message to ${occupantSnippet}...`;
